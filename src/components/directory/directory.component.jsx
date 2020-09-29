@@ -16,32 +16,32 @@ class Directory extends Component {
     this.state = {
       sections: [
         {
-          title: "CALENDARS",
+          title: "Calendars",
           imageUrl: calendarImg,
           id: 1,
           linkUrl: "shop/calendars"
         },
         {
-          title: "OTHER",
+          title: "Other",
           imageUrl: otherImg,
           id: 2,
           linkUrl: "shop/other"
         },
         {
-          title: "DIGITAL",
+          title: "Digital",
           imageUrl: digitalImg,
           id: 3,
           linkUrl: "shop/digital"
         },
         {
-          title: "POSTERS",
+          title: "Posters",
           imageUrl: posterImg,
           size: "large",
           id: 4,
           linkUrl: "shop/posters"
         },
         {
-          title: "FRAMES",
+          title: "Frames",
           imageUrl: framesImg,
           size: "large",
           id: 5,
