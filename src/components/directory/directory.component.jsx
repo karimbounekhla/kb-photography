@@ -14,6 +14,7 @@ class Directory extends Component {
     super();
 
     this.state = {
+      test: true,
       sections: [
         {
           title: "Calendars",
