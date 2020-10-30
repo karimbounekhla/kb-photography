@@ -1,0 +1,25 @@
+.header {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  
+    .logo-container img {
+      height: 85px;
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 1.25em;
+  
+      .option {
+        padding: 10px 15px;
+      }
+    }
+  }
+  
