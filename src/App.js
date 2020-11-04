@@ -31,15 +31,13 @@ class App extends React.Component {
               id: snapShot.id,
               ...snapShot.data()
             }
-          });
+          }, () => console.log(this.state));
         })
       } else {
         this.setState({
-          currUser: userAuth
+          currUser: null
         });
       }
-
-      console.log(this.state);
     });
   }
 

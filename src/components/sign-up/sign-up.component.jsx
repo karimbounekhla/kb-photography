@@ -34,7 +34,6 @@ class SignUp extends React.Component {
       );
       await createUser(user, { displayName });
 
-      console.log();
       // Empty form after user creation
       this.setState({
         displayName: "",
