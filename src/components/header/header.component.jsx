@@ -6,14 +6,18 @@ import { auth } from "../../firebase/firebase.utils";
 
 import "./header.styles.scss";
 
-const Header = ({ currUser, signOutFn }) => {
-  console.log(currUser);
+const Header = ({ currUser }) => {
   return (
     <div className="header">
       <Link className="logo-container" to="/">
         <img src={logo} alt="KB Photograpy logo" />
       </Link>
       <div className="options">
+        {currUser ? (
+          <span className="welcome-name">Welcome {currUser.displayName}</span>
+        ) : (
+          ""
+        )}
         <Link className="option" to="/shop">
           SHOP
         </Link>

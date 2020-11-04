@@ -13,6 +13,35 @@ const config = {
     measurementId: "G-F8DN0ZCXRE"
   };
 
+/**
+ * Create a User profile in FireStore when a user logs in for the first time (i.e. sign up)
+ * @param {Firebase Auth Object} userAuth 
+ */
+export const createUser = async (userAuth, otherData) => {
+  if (!userAuth) return;
+  
+  const userRef = firestore.doc(`users/${userAuth.uid}`);
+  const snapShot = await userRef.get();
+
+  if (!snapShot.exists) {
+    const { displayName, email } = userAuth;
+    const createdAt = new Date();
+
+    try {
+      await userRef.set({
+        displayName,
+        email,
+        createdAt,
+        ...otherData
+      })
+    } catch (err) {
+      console.log('ERROR adding user to database: ' + err);
+    }
+  }
+
+  return userRef;
+} 
+
 firebase.initializeApp(config);
 
 export const auth = firebase.auth();
