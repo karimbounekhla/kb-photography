@@ -5,7 +5,7 @@ import "./login.styles.scss";
 import SignIn from "../../components/sign-in/sign-in.component";
 import SignUp from "../../components/sign-up/sign-up.component";
 
-const LogInPage = (currUser) => (
+const LogInPage = ({ currUser }) => (
   <div>
     {!currUser ? (
       <div className="login-page">
@@ -20,8 +20,8 @@ const LogInPage = (currUser) => (
   </div>
 );
 
-const mapPropsToState = (state) => ({
+const mapStateToProps = (state) => ({
   currUser: state.user.currUser,
 });
 
-export default connect(mapPropsToState)(LogInPage);
+export default connect(mapStateToProps)(LogInPage);
