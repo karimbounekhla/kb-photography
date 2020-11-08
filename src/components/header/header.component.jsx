@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 import logo from "../../media/logo/logo.png";
+import CartIcon from "../cart-icon/cart-icon.component";
+import Cart from "../cart/cart.component";
 
 import { auth } from "../../firebase/firebase.utils";
 
@@ -35,7 +37,9 @@ const Header = ({ currUser }) => {
             SIGN OUT
           </Link>
         )}
+        <CartIcon />
       </div>
+      <Cart />
     </div>
   );
 };
