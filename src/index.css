@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body::before{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: #E5E5F7;
+  opacity: 0.5;
+  background-image: radial-gradient(#ff0000 1.15px, #E5E5F7 1.15px);
+  background-size: 23px 23px;
+  }
