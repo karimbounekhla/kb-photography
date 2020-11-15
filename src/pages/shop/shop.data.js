@@ -48,21 +48,21 @@ const SHOP_DATA = [
       },
       {
         id: 6,
-        name: "1-on-1 Photography Lesson for beginners (2 Hours)",
+        name: "Photography Lesson for beginners (2 Hours)",
         imageUrl:
           "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
         price: 90,
       },
       {
         id: 7,
-        name: "Personal Photoshoot and 30 edited photos",
+        name: "Personal Photoshoot (30 photos)",
         imageUrl:
           "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
         price: 60,
       },
       {
         id: 8,
-        name: "Personal Photoshoot and 60 edited photos",
+        name: "Personal Photoshoot (60 edited photos)",
         imageUrl:
           "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
         price: 100,
