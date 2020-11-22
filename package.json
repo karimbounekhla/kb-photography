@@ -5,6 +5,7 @@
   "dependencies": {
     "cra-template": "1.0.3",
     "firebase": "^8.0.0",
+    "lodash.memoize": "^4.1.2",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",

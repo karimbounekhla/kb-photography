@@ -1,7 +1,7 @@
 // PLACEHOLDERS DURING DEVELOPMENT
 
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  calendars: {
     id: 1,
     title: "Calendars",
     routeName: "calendars",
@@ -36,7 +36,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  other: {
     id: 2,
     title: "Other",
     routeName: "other",
@@ -71,7 +71,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  digital: {
     id: 3,
     title: "Digital",
     routeName: "digital",
@@ -106,7 +106,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  posters: {
     id: 4,
     title: "Posters",
     routeName: "posters",
@@ -162,7 +162,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  frames: {
     id: 5,
     title: "Frames",
     routeName: "frames",
@@ -211,6 +211,6 @@ const SHOP_DATA = [
       },
     ],
   },
-];
+};
 
 export default SHOP_DATA;
