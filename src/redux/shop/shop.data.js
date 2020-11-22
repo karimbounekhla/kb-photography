@@ -1,3 +1,5 @@
+// PLACEHOLDERS DURING DEVELOPMENT
+
 const SHOP_DATA = [
   {
     id: 1,
