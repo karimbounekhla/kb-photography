@@ -7,36 +7,36 @@ import otherImg from "../../media/menu-img/other.jpg";
 const INITIAL_STATE = {
   sections: [
     {
-      title: "Calendars",
+      title: "International",
       imageUrl: calendarImg,
       id: 1,
-      linkUrl: "shop/calendars",
+      linkUrl: "gallery/international",
     },
     {
-      title: "Other",
+      title: "Winter",
       imageUrl: otherImg,
       id: 2,
-      linkUrl: "shop/other",
+      linkUrl: "gallery/winter",
     },
     {
-      title: "Digital",
+      title: "Cities",
       imageUrl: digitalImg,
       id: 3,
-      linkUrl: "shop/digital",
+      linkUrl: "gallery/cities",
     },
     {
-      title: "Posters",
+      title: "Mountains",
       imageUrl: posterImg,
       size: "large",
       id: 4,
-      linkUrl: "shop/posters",
+      linkUrl: "gallery/mountains",
     },
     {
-      title: "Frames",
+      title: "Lakes",
       imageUrl: framesImg,
       size: "large",
       id: 5,
-      linkUrl: "shop/frames",
+      linkUrl: "gallery/lakes",
     },
   ],
 };

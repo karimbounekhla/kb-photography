@@ -1,38 +1,26 @@
-// PLACEHOLDERS DURING DEVELOPMENT
-
-const SHOP_DATA = {
+const COLLECTIONS_DATA = {
   calendars: {
     id: 1,
-    title: "Calendars",
-    routeName: "calendars",
+    title: "Cities",
+    routeName: "cities",
     items: [
       {
         id: 1,
-        name: "Banff & Surroundings",
+        name: "Toronto | Nathan Phillips Square",
         imageUrl:
           "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 25,
       },
       {
         id: 2,
-        name: "Astrophotography",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 15,
-      },
-      {
-        id: 3,
-        name: "City Life in Toronto",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 15,
-      },
-      {
-        id: 4,
         name: "San Fransisco",
         imageUrl:
           "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 15,
+      },
+      {
+        id: 3,
+        name: "Algeria | Algiers",
+        imageUrl:
+          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
       },
     ],
   },

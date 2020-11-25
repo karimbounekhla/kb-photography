@@ -23,6 +23,9 @@ const Header = ({ currUser, cartHidden }) => {
         {currUser ? (
           <span className="welcome-name">Welcome {currUser.displayName}</span>
         ) : null}
+        <Link className="option" to="/">
+          GALLERY
+        </Link>
         <Link className="option" to="/shop">
           SHOP
         </Link>
