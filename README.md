@@ -1,8 +1,8 @@
 ## kb-photography
 
-Building a photo gallery / shop where I will be selling prints, frames and other things.
+My photography gallery and shop
 
-Until it is live, feel free to take a sneak peak at my photography on [Instagram](https://www.instagram.com/karimboun/)
+Deployed on [Heroku](https://kb-photography.herokuapp.com/)
 
 ### Stack:
 * React/Redux
