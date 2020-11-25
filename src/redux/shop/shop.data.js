@@ -50,7 +50,7 @@ const SHOP_DATA = {
       },
       {
         id: 6,
-        name: "Photography Lesson for beginners (2 Hours)",
+        name: "Personal Photography Lesson",
         imageUrl:
           "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
         price: 90,

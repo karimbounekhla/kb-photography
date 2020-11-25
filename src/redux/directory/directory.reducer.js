@@ -1,39 +1,39 @@
-import posterImg from "../../media/menu-img/posters.jpg";
-import framesImg from "../../media/menu-img/frames.jpg";
-import calendarImg from "../../media/menu-img/calendars.jpg";
-import digitalImg from "../../media/menu-img/digital.jpg";
-import otherImg from "../../media/menu-img/other.jpg";
+import mountainsImg from "../../media/menu-img/mountains.jpg";
+import lakesImg from "../../media/menu-img/lakes.jpg";
+import internationalImg from "../../media/menu-img/international.jpg";
+import winterImg from "../../media/menu-img/winter.jpg";
+import citiesImg from "../../media/menu-img/cities.jpg";
 
 const INITIAL_STATE = {
   sections: [
     {
       title: "International",
-      imageUrl: calendarImg,
+      imageUrl: internationalImg,
       id: 1,
       linkUrl: "gallery/international",
     },
     {
       title: "Winter",
-      imageUrl: otherImg,
+      imageUrl: winterImg,
       id: 2,
       linkUrl: "gallery/winter",
     },
     {
       title: "Cities",
-      imageUrl: digitalImg,
+      imageUrl: citiesImg,
       id: 3,
       linkUrl: "gallery/cities",
     },
     {
       title: "Mountains",
-      imageUrl: posterImg,
+      imageUrl: mountainsImg,
       size: "large",
       id: 4,
       linkUrl: "gallery/mountains",
     },
     {
       title: "Lakes",
-      imageUrl: framesImg,
+      imageUrl: lakesImg,
       size: "large",
       id: 5,
       linkUrl: "gallery/lakes",

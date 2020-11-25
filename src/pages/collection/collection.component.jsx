@@ -3,51 +3,25 @@ import Lightbox from "react-lightbox-component";
 import "react-lightbox-component/build/css/index.css";
 import { connect } from "react-redux";
 
-import CollectionItem from "../../components/collection-item/collection-item.component";
-import { selectCollection } from "../../redux/shop/shop.selector";
+import { selectCollection } from "../../redux/collections/collections.selector";
 
 import "./collection.styles.scss";
 
 const CollectionPage = ({ collection }) => {
-  // const { title, items } = collection;
+  const { title, items } = collection;
+  console.log(collection);
   return (
     <div className="collection-page">
+      <h2 className="title">{title}</h2>
       <Lightbox
-        images={[
-          {
-            src:
-              "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-          },
-          {
-            src:
-              "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-          },
-          {
-            src:
-              "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-          },
-          {
-            src:
-              "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-          },
-          {
-            src:
-              "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-          },
-          {
-            src:
-              "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-          },
-        ]}
+        images={items.map((item) => ({
+          src: item.image,
+          title: item.name,
+          description: "Karim Bounekhla",
+        }))}
         thumbnailWidth="400px"
-        thumbnailHeight="300px"
+        thumbnailHeight="500px"
       />
-      {/* <h2 className="title">{title}</h2>
-      <div className="items">
-        {items.map((item) => (
-          <CollectionItem key={item.id} item={item} />
-        ))}
-      </div> */}
     </div>
   );
 };

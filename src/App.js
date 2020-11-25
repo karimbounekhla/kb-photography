@@ -7,6 +7,7 @@ import "./App.css";
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
 import GalleryPage from "./pages/gallery/gallery.component";
+import AboutPage from "./pages/about/about.component";
 import Header from "./components/header/header.component";
 import LoginPage from "./pages/login/login.component";
 import CheckoutPage from "./components/checkout/checkout.component";
@@ -51,11 +52,9 @@ class App extends React.Component {
           <Route path="/shop" component={ShopPage} />
           <Route path="/gallery" component={GalleryPage} />
           <Route exact path="/checkout" component={CheckoutPage} />
-          <Route
-            path="/signin"
-            render={() =>
-              this.props.currUser ? <Redirect to="/" /> : <LoginPage />
-            }
+          <Route path="/about" component={AboutPage} />
+          path="/signin" render=
+          {() => (this.props.currUser ? <Redirect to="/" /> : <LoginPage />)}
           />
         </Switch>
       </div>

@@ -1,5 +1,11 @@
+import citiesImg from "./cities.data";
+import internationalImg from "./international.data";
+import lakesImg from "./lakes.data";
+import winterImg from "./winter.data";
+import mountainsImg from "./mountains.data";
+
 const COLLECTIONS_DATA = {
-  calendars: {
+  cities: {
     id: 1,
     title: "Cities",
     routeName: "cities",
@@ -7,163 +13,158 @@ const COLLECTIONS_DATA = {
       {
         id: 1,
         name: "Toronto | Nathan Phillips Square",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
+        image: citiesImg.cities1,
       },
       {
         id: 2,
         name: "San Fransisco",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
+        image: citiesImg.cities2,
       },
       {
         id: 3,
         name: "Algeria | Algiers",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
+        image: citiesImg.cities3,
       },
     ],
   },
-  other: {
+  international: {
     id: 2,
-    title: "Other",
-    routeName: "other",
+    title: "International",
+    routeName: "international",
     items: [
       {
+        id: 1,
+        name: "Abu Dhabi | Sheikh Zayed Grand Mosque",
+        image: internationalImg.international1,
+      },
+      {
+        id: 2,
+        name: "San Fransisco | Golden Gate Bridge",
+        image: internationalImg.international2,
+      },
+      {
+        id: 3,
+        name: "Abu Dhabi | Sheikh Zayed Grand Mosque",
+        image: internationalImg.international3,
+      },
+      {
+        id: 4,
+        name: "United Arab Emirates | Desert",
+        image: internationalImg.international4,
+      },
+    ],
+  },
+  lakes: {
+    id: 3,
+    title: "Lakes",
+    routeName: "lakes",
+    items: [
+      {
+        id: 1,
+        name: "Banff | Moraine Lake",
+        image: lakesImg.lakes1,
+      },
+      {
+        id: 2,
+        name: "Jasper | Peyto Lake",
+        image: lakesImg.lakes2,
+      },
+      {
+        id: 3,
+        name: "Jasper | Bow Lake",
+        image: lakesImg.lakes3,
+      },
+      {
+        id: 4,
+        name: "Banff | Lake Louise",
+        image: lakesImg.lakes4,
+      },
+      {
         id: 5,
-        name: "Photographer's Guide to Banff (PDF)",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 10,
+        name: "Banff | Lake Louise",
+        image: lakesImg.lakes5,
       },
       {
         id: 6,
-        name: "Photography Lesson for beginners (2 Hours)",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 90,
+        name: "Banff | Vermillion Lakes",
+        image: lakesImg.lakes6,
       },
       {
         id: 7,
-        name: "Personal Photoshoot (30 photos)",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 60,
-      },
-      {
-        id: 8,
-        name: "Personal Photoshoot (60 edited photos)",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 100,
+        name: "Banff | Lake Minnewanka",
+        image: lakesImg.lakes7,
       },
     ],
   },
-  digital: {
-    id: 3,
-    title: "Digital",
-    routeName: "digital",
-    items: [
-      {
-        id: 9,
-        name: "iPhone Wallpaper",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 0,
-      },
-      {
-        id: 10,
-        name: "Desktop wallpaper",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 0,
-      },
-      {
-        id: 11,
-        name: "Lightroom Presets",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 10,
-      },
-      {
-        id: 12,
-        name: "VSCO Presets",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 5,
-      },
-    ],
-  },
-  posters: {
+  winter: {
     id: 4,
-    title: "Posters",
-    routeName: "posters",
+    title: "Winter",
+    routeName: "winter",
     items: [
       {
-        id: 13,
-        name: "Moraine Lake",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 10,
+        id: 1,
+        name: "Banff | Morant Curve",
+        image: winterImg.winter1,
       },
       {
-        id: 14,
-        name: "Lake Louise",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 10,
+        id: 2,
+        name: "Banff | Lake Minnewanka",
+        image: winterImg.winter2,
       },
       {
-        id: 15,
-        name: "Peyto Lake",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 10,
+        id: 3,
+        name: "Jasper | Peyto Lake",
+        image: winterImg.winter3,
       },
       {
-        id: 16,
-        name: "Two Jack Lake",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 10,
+        id: 4,
+        name: "Kananaskis | Upper Lake",
+        image: winterImg.winter4,
       },
     ],
   },
-  frames: {
+  mountains: {
     id: 5,
-    title: "Frames",
-    routeName: "frames",
+    title: "Mountains",
+    routeName: "mountains",
     items: [
       {
-        id: 20,
-        name: "Johnston Canyon",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 15,
+        id: 1,
+        name: "Banff | Mt Norquay",
+        image: mountainsImg.mountains1,
       },
       {
-        id: 21,
-        name: "Moraine Lake",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 15,
+        id: 2,
+        name: "Canmore | East End Of Rundle",
+        image: mountainsImg.mountains2,
       },
       {
-        id: 22,
-        name: "Banff Town",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 15,
+        id: 3,
+        name: "Banff | Castle Mountain",
+        image: mountainsImg.mountains3,
       },
       {
-        id: 23,
-        name: "Vancouver Fish Creek",
-        imageUrl:
-          "https://via.placeholder.com/250x350/000000/FFFFFF/?text=KB-Photography",
-        price: 15,
+        id: 4,
+        name: "Banff | Lake Minnewanka",
+        image: mountainsImg.mountains4,
+      },
+      {
+        id: 5,
+        name: "Kananaskis | Road",
+        image: mountainsImg.mountains5,
+      },
+      {
+        id: 6,
+        name: "Banff | Mt Norquay",
+        image: mountainsImg.mountains6,
+      },
+      {
+        id: 7,
+        name: "Canmore | Spray Valley",
+        image: mountainsImg.mountains7,
       },
     ],
   },
 };
 
-export default SHOP_DATA;
+export default COLLECTIONS_DATA;
