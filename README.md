@@ -10,6 +10,7 @@ Deployed on [Heroku](https://kb-photography.herokuapp.com/)
 - [ ] Complete 'About' Page
 - [ ] Implement Stripe integration for checkout
 - [ ] Convert CSS to Styled Components
+- [ ] Mobile Responsiveness
 
 ## Tools 
 
