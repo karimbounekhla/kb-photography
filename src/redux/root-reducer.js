@@ -11,7 +11,7 @@ import collectionReducer from "./collections/collections.reducer";
 const persistConfig = {
   key: "root",
   storage,
-  whitelist: ["cart", "collections"],
+  whitelist: ["cart"],
 };
 
 const rootReducer = combineReducers({

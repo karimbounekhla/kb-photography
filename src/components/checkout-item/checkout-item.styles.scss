@@ -25,6 +25,8 @@
   
     .quantity {
         display: flex;
+        align-items: center;
+        justify-content: center;
     
         .arrow {
           cursor: pointer;

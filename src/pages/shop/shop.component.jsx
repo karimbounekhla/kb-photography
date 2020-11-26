@@ -4,7 +4,7 @@ import CollectionOverview from "../../components/collections-overview/collection
 
 const ShopPage = () => (
   <div className="shop-page">
-    <span>Note: Shop Page in Progress</span>
+    <span>Note: Shop Content is a work in Progress.</span>
     <CollectionOverview />
   </div>
 );

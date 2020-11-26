@@ -53,8 +53,11 @@ class App extends React.Component {
           <Route path="/gallery" component={GalleryPage} />
           <Route exact path="/checkout" component={CheckoutPage} />
           <Route path="/about" component={AboutPage} />
-          path="/signin" render=
-          {() => (this.props.currUser ? <Redirect to="/" /> : <LoginPage />)}
+          <Route
+            path="/signin"
+            render={() =>
+              this.props.currUser ? <Redirect to="/" /> : <LoginPage />
+            }
           />
         </Switch>
       </div>
