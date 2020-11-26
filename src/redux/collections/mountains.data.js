@@ -5,6 +5,7 @@ import mountains4 from "../../media/gallery/mountains/4.jpg";
 import mountains5 from "../../media/gallery/mountains/5.jpg";
 import mountains6 from "../../media/gallery/mountains/6.jpg";
 import mountains7 from "../../media/gallery/mountains/7.jpg";
+import mountains8 from "../../media/gallery/mountains/8.jpg";
 
 const mountainsImg = {
   mountains1: mountains1,
@@ -14,6 +15,7 @@ const mountainsImg = {
   mountains5: mountains5,
   mountains6: mountains6,
   mountains7: mountains7,
+  mountains8: mountains8,
 };
 
 export default mountainsImg;

@@ -17,13 +17,38 @@ const COLLECTIONS_DATA = {
       },
       {
         id: 2,
-        name: "San Fransisco",
+        name: "San Francisco",
         image: citiesImg.cities2,
       },
       {
         id: 3,
         name: "Algeria | Algiers",
         image: citiesImg.cities3,
+      },
+      {
+        id: 4,
+        name: "Toronto | CN Tower",
+        image: citiesImg.cities4,
+      },
+      {
+        id: 5,
+        name: "Italy | Rome",
+        image: citiesImg.cities5,
+      },
+      {
+        id: 6,
+        name: "Toronto | Downtown",
+        image: citiesImg.cities6,
+      },
+      {
+        id: 7,
+        name: "Toronto | Financial District",
+        image: citiesImg.cities7,
+      },
+      {
+        id: 8,
+        name: "Toronto | Nathan Phillips Square",
+        image: citiesImg.cities8,
       },
     ],
   },
@@ -39,7 +64,7 @@ const COLLECTIONS_DATA = {
       },
       {
         id: 2,
-        name: "San Fransisco | Golden Gate Bridge",
+        name: "San Francisco | Golden Gate Bridge",
         image: internationalImg.international2,
       },
       {
@@ -49,8 +74,28 @@ const COLLECTIONS_DATA = {
       },
       {
         id: 4,
-        name: "United Arab Emirates | Desert",
+        name: "Algeria | Dellys",
         image: internationalImg.international4,
+      },
+      {
+        id: 5,
+        name: "United Arab Emirates | Desert",
+        image: internationalImg.international5,
+      },
+      {
+        id: 6,
+        name: "Algeria | Bejaia",
+        image: internationalImg.international6,
+      },
+      {
+        id: 7,
+        name: "Algeria | Tigzirt",
+        image: internationalImg.international7,
+      },
+      {
+        id: 8,
+        name: "Vietnam | Ha Long Bay",
+        image: internationalImg.international8,
       },
     ],
   },
@@ -94,6 +139,11 @@ const COLLECTIONS_DATA = {
         name: "Banff | Lake Minnewanka",
         image: lakesImg.lakes7,
       },
+      {
+        id: 8,
+        name: "Banff | Two Jack Lake",
+        image: lakesImg.lakes8,
+      },
     ],
   },
   winter: {
@@ -121,6 +171,26 @@ const COLLECTIONS_DATA = {
         name: "Kananaskis | Upper Lake",
         image: winterImg.winter4,
       },
+      {
+        id: 5,
+        name: "Banff | Two Jack Lake",
+        image: winterImg.winter5,
+      },
+      {
+        id: 6,
+        name: "Jasper | Glacier",
+        image: winterImg.winter6,
+      },
+      {
+        id: 7,
+        name: "Banff | Lake Minnewanka",
+        image: winterImg.winter7,
+      },
+      {
+        id: 8,
+        name: "Jasper | Mistaya Lake",
+        image: winterImg.winter8,
+      },
     ],
   },
   mountains: {
@@ -130,12 +200,12 @@ const COLLECTIONS_DATA = {
     items: [
       {
         id: 1,
-        name: "Banff | Mt Norquay",
+        name: "Banff | Sentinel Pass",
         image: mountainsImg.mountains1,
       },
       {
         id: 2,
-        name: "Canmore | East End Of Rundle",
+        name: "Banff | Mt Norquay",
         image: mountainsImg.mountains2,
       },
       {
@@ -160,8 +230,13 @@ const COLLECTIONS_DATA = {
       },
       {
         id: 7,
-        name: "Canmore | Spray Valley",
+        name: "Canmore | East End of Rundle",
         image: mountainsImg.mountains7,
+      },
+      {
+        id: 8,
+        name: "Canmore | Spray Valley",
+        image: mountainsImg.mountains8,
       },
     ],
   },

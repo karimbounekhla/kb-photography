@@ -5,6 +5,7 @@ import lakes4 from "../../media/gallery/lakes/4.jpg";
 import lakes5 from "../../media/gallery/lakes/5.jpg";
 import lakes6 from "../../media/gallery/lakes/6.jpg";
 import lakes7 from "../../media/gallery/lakes/7.jpg";
+import lakes8 from "../../media/gallery/lakes/8.jpg";
 
 const lakesImg = {
   lakes1: lakes1,
@@ -14,6 +15,7 @@ const lakesImg = {
   lakes5: lakes5,
   lakes6: lakes6,
   lakes7: lakes7,
+  lakes8: lakes8,
 };
 
 export default lakesImg;
