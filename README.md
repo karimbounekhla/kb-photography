@@ -1,12 +1,28 @@
 ## kb-photography
 
-My photography gallery and shop
+Personal photography gallery and shop built in ReactJS.
 
 Deployed on [Heroku](https://kb-photography.herokuapp.com/)
 
-### Stack:
-* React/Redux
-* Firebase
+## To-do List
+
+- [ ] Complete 'Shop' Page
+- [ ] Complete 'About' Page
+- [ ] Implement Stripe integration for checkout
+- [ ] Convert CSS to Styled Components
+- [ ] Mobile Responsiveness
+
+## Tools 
+
+* ReactJS
+* Redux - State Management
+* Firebase - Authentication
+
+## Screenshots
+
+![Main Page](https://github.com/karimbounekhla/kb-photography/blob/master/screenshots/homepage.jpg)
+![Gallery](https://github.com/karimbounekhla/kb-photography/blob/master/screenshots/gallery.jpg)
+![View](https://github.com/karimbounekhla/kb-photography/blob/master/screenshots/view.jpg)
 
 All rights reserved 2020 - Karim Bounekhla.
 
